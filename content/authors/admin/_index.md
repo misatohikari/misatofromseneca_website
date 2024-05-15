@@ -41,9 +41,9 @@ education:
     - course: Diploma in Business Administration 
       institution: Seneca Polytechnic
       year: Jan 2020 - Dec 2022
-    - course: Bachelor’s Degree in Global and Asian Policy Studies
-      institution: Kansai University
-      year: Apr 2015 - Mar 2020
+    # - course: Bachelor’s Degree in Global and Asian Policy Studies
+    #   institution: Kansai University
+    #   year: Apr 2015 - Mar 2020
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -70,10 +70,6 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:myoshimoto@myseneca.ca'
-  - icon: instagram
-    icon_pack: fab
-    link: https://www.instagram.com/misato.0113/
-    label: Follow me on Instagram
     # display:
     #   header: true
   - icon: github
@@ -85,9 +81,9 @@ social:
   # Link to a PDF of your resume/CV.
   # To use: copy your resume to `static/uploads/resume.pdf`, enable `ai` icons in `params.yaml`,
   # and uncomment the lines below.
-  # - icon: cv
-  #   icon_pack: ai
-  #   link: uploads/resume.pdf
+  - icon: cv
+    icon_pack: ai
+    link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'myoshimoto@myseneca.ca'
