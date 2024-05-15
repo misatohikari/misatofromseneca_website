@@ -26,10 +26,11 @@ bio:
 
 # Interests to show in About widget
 interests:
-  - Web Development
-  - Full-Stack Development
+  - Software Engineering
+  - Full-Stack Web Development
+  - Databases
   - Cloud Computing
-  - Software Testing and Quality Assurance
+  - Software Testing/QA
 
 # Education to show in About widget
 education:
