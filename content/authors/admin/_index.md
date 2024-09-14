@@ -41,9 +41,9 @@ education:
     - course: Diploma in Business Administration 
       institution: Seneca Polytechnic
       year: Jan 2020 - Dec 2022
-    # - course: Bachelor’s Degree in Global and Asian Policy Studies
-    #   institution: Kansai University
-    #   year: Apr 2015 - Mar 2020
+    - course: Bachelor’s Degree in Global and Asian Policy Studies
+      institution: Kansai University
+      year: Apr 2015 - Mar 2020
 
 # Skills
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons

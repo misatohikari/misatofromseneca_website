@@ -79,6 +79,14 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Software QA Engineer
+          company: Ministry of Education
+          company_url: ''
+          company_logo: 
+          location: Toronto, Canada
+          date_start: '2024-09-04'
+          date_end: ''
+          description: I perform both manual and automated testing on the OSAP (Ontario Student Assistance Program) application using various tools. I also create logs of the test results and work closely with developers to contribute to bug fixes and feature improvements.
         - title: Restaurant Server
           company: Ikkousha Ramen
           company_url: ''
