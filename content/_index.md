@@ -15,29 +15,29 @@ sections:
     content:
       title: Skills
       items:
-        - name: JavaScript
-          description:
-          icon: js
-          icon_pack: fab
+        - name: Software Testing & QA
+          description: Functional, regression, integration & E2E
+          icon: vial
+          icon_pack: fas
         - name: Python
-          description: 
+          description:
           icon: python
           icon_pack: fab
-        - name: C++
+        - name: SQL & Databases
           description:
-          icon: c
-          icon_pack: fas
-        - name: Node.js
-          description: 
-          icon: node
-          icon_pack: fab
-        - name: Database (SQL/noSQL)
-          description: 
           icon: database
           icon_pack: fas
-        - name: Github
-          description: 
-          icon: github
+        - name: Java
+          description:
+          icon: java
+          icon_pack: fab
+        - name: AWS Cloud
+          description:
+          icon: aws
+          icon_pack: fab
+        - name: Git
+          description:
+          icon: git-alt
           icon_pack: fab
   - block: portfolio
     id: projects
@@ -79,48 +79,51 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Software QA Engineer
-          company: Ministry of Education
-          company_url: ''
-          company_logo: 
+        - title: Cloud Support Associate
+          company: Amazon Web Services
+          company_url: 'https://aws.amazon.com/'
+          company_logo:
           location: Toronto, Canada
-          date_start: '2024-09-04'
+          date_start: '2026-04-01'
           date_end: ''
-          description: I perform both manual and automated testing on the OSAP (Ontario Student Assistance Program) application using various tools. I also create logs of the test results and work closely with developers to contribute to bug fixes and feature improvements.
-        - title: Restaurant Server
-          company: Ikkousha Ramen
+          description: |2-
+              - Triage and resolve high-severity networking cases (VPC, ALB, TLS, API connectivity) for global enterprise clients under tight SLOs, minimizing revenue-impacting downtime for production traffic.
+              - Trace failures across interconnected AWS services (IAM, security groups, route tables, DNS, load balancers) using first-principles analysis to identify root causes that surface-level diagnosis would miss.
+              - Analyze customer and AWS-side network logs (CloudWatch, CloudTrail, VPC Flow Logs) to separate customer configuration issues from platform-level defects.
+              - Document reproduction steps and root cause findings for AWS engineering teams, including service-side defects, leading to confirmed fixes that prevented recurrence for other customers.
+        - title: IT QA Assistant (Co-op)
+          company: Ministry of Education, Government of Ontario
           company_url: ''
-          company_logo: 
+          company_logo:
           location: Toronto, Canada
-          date_start: '2021-05-01'
-          date_end: ''
-          description: I utilize my strong multitasking and proactive customer service skills to ensure a seamless dining experience for our guests. Additionally, I leverage my experience in team training to support fellow staff members, fostering a collaborative environment focused on delivering exceptional service.
-        - title: Digital Marketing Internship
+          date_start: '2024-09-01'
+          date_end: '2025-04-30'
+          description: |2-
+              - Executed 200+ test cases across functional, regression, smoke, integration, and E2E testing for Ontario's OSAP student financial aid platform (400,000+ students per academic year), covering the student portal, admin portal, and institutional views.
+              - Identified and triaged 50+ defects in HP ALM with severity classification and reproduction steps; performed confirmation and regression testing after fixes, and maintained traceability matrices to support UAT and release sign-off.
+              - Served as the primary co-op QA resource for the Ontario Learn and Stay Grant module, testing complex eligibility scenarios (student withdrawal, employment registration, six-month compliance deadlines) alongside the BA lead.
+              - Developed net-new test cases from business requirements and Figma design flows, and validated cross-portal data consistency between student-facing behavior and admin-side updates.
+        - title: Digital Marketing Intern
           company: Life Journey Global
           company_url: ''
-          company_logo: 
+          company_logo:
           location: Toronto, Canada
           date_start: '2022-02-01'
           date_end: '2022-05-31'
-          description: In my time at the position, I was responsible for the development and maintenance of company websites using WordPress. By incorporating HTML and CSS, I ensured user-friendly interfaces and seamless functionality. Additionally, I implemented Search Engine Optimization (SEO) strategies, resulting in a notable 20% increase in search engine rankings and organic traffic.
-        - title: Telephone Inquiry & Sales Representative
-          company: Bellclick
-          company_url: ''
-          company_logo: 
-          location: Osaka, Japan
-          date_start: '2020-03-01'
-          date_end: '2020-10-31'
-          description: Throughout my role, I actively provided exceptional customer support by promptly addressing inquiries, swiftly troubleshooting issues, and professionally resolving concerns. As a testament to my dedication, I received recognition for my outstanding performance, earning awards for consistently achieving high customer satisfaction scores of over 4.6 out of 5. Moreover, I showcased my strong sales acumen by consistently meeting or surpassing personal sales targets of 140 sales per month.
-        - title: Salesclerk
-          company: Tsuruha Drug
-          company_url: ''
-          company_logo: 
-          location: Osaka, Japan
-          date_start: '2018-11-01'
-          date_end: '2020-10-31'
-          description: During my time, I played a pivotal role in assisting customers by providing personalized product recommendations tailored to their specific needs, always delivered with a focus on providing supportive service. Through these efforts, I successfully achieved monthly sales targets. Additionally, I took on the responsibility of training new customer service hires, imparting essential skills and knowledge to promote efficiency and professionalism within the team.
+          description: Developed and maintained company websites using WordPress, HTML, and CSS to deliver user-friendly interfaces, and implemented SEO strategies that improved search engine rankings and organic traffic.
       design:
       columns: '2'
+  - block: markdown
+    id: certifications
+    content:
+      title: Certifications
+      text: |-
+        - **[AWS Certified Solutions Architect – Associate](https://www.credly.com/badges/c50b6d6e-ed43-4bb4-b4f1-a521ff00a756/linked_in_profile)** — Amazon Web Services (2026)
+        - **[AWS Certified Cloud Practitioner](https://www.credly.com/badges/56ace733-db2e-44d8-b574-af20da1fa499/linked_in_profile)** — Amazon Web Services (2025)
+        - **[Selenium Essential Training](https://www.linkedin.com/in/misato-yoshimoto/details/certifications/)** — LinkedIn Learning (2024)
+        - **ISTQB Certified Tester, Foundation Level (CTFL v4.0)** — In progress
+    design:
+      columns: '1'
   # - block: accomplishments
   #   content:
   #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.

@@ -14,31 +14,32 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Computer Programming & Analysis Student at Seneca Polytechnic
+role: Software QA Analyst & Engineer | Cloud Support Associate at AWS
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Seneca Polytechnic
-    url: https://www.senecapolytechnic.ca/programs/fulltime/CPA.html
+  - name: Amazon Web Services
+    url: https://aws.amazon.com/
 
 # Short bio (displayed in user profile at end of posts)
 bio: 
 
 # Interests to show in About widget
 interests:
-  - Software Engineering
+  - Software Testing & QA
+  - Test Automation
+  - Databases & SQL
+  - Cloud Computing (AWS & Azure)
+  - Public Sector / GovTech
   - Full-Stack Web Development
-  - Databases
-  - Cloud Computing
-  - Software Testing/QA
 
 # Education to show in About widget
 education:
   courses:
-    - course: Advanced Diploma in Computer Programming & Analysis
+    - course: Diploma in Computer Programming
       institution: Seneca Polytechnic
-      year: May 2023 - Dec 2025
-    - course: Diploma in Business Administration 
+      year: May 2023 - Aug 2025
+    - course: Diploma in Business Administration
       institution: Seneca Polytechnic
       year: Jan 2020 - Dec 2022
     - course: Bachelor’s Degree in Global and Asian Policy Studies
@@ -50,8 +51,23 @@ education:
 skills:
   - name: Technical
     items:
-      - name: JavaScript
-        icon: javascript
+      - name: Software Testing & QA
+        icon: vial
+        icon_pack: fas
+      - name: Python
+        icon: python
+        icon_pack: fab
+      - name: SQL
+        icon: database
+        icon_pack: fas
+      - name: Java
+        icon: java
+        icon_pack: fab
+      - name: AWS
+        icon: aws
+        icon_pack: fab
+      - name: Git
+        icon: git-alt
         icon_pack: fab
   - name: Hobbies
     color: '#eeac02'
@@ -69,7 +85,7 @@ skills:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:myoshimoto@myseneca.ca'
+    link: 'mailto:y.0113misato@gmail.com'
     # display:
     #   header: true
   - icon: github
@@ -86,17 +102,17 @@ social:
     link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'myoshimoto@myseneca.ca'
+email: 'y.0113misato@gmail.com'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Hello! I'm a passionate and driven computer programming student currently refining my skills at Seneca Polytechnic. With a strong foundation in programming principles and a love for hands-on experience, I'm excited to dive deeper into the world of technology.
+I'm a QA professional focused on software quality, testing, and building reliable systems. During my co-op with Ontario's Ministry of Education, I executed 200+ test cases across functional, regression, integration, and end-to-end testing for the OSAP student financial aid platform, which serves 400,000+ students each academic year, spanning the student portal, admin portal, and institutional views.
 
-Throughout my academic journey, I've become proficient in languages such as C, C++, JavaScript, and SQL, while also mastering essential tools like Linux. My focus has been on exploring the intricacies of web development, where I've delved into the depths of Node.js and honed my skills in both frontend and backend development.
+I'm currently a Cloud Support Associate at AWS, where I troubleshoot deeply interconnected cloud services for global enterprise clients under tight service-level objectives. That work has sharpened my attention to detail, structured root cause analysis, and first-principles problem solving, skills I bring directly back to QA.
 
-<!-- My passion for programming extends beyond the classroom as I actively seek opportunities to expand my knowledge and contribute to the tech community. Whether it's collaborating on group projects or participating in coding competitions, I thrive in environments that challenge me to push the boundaries of my abilities. -->
+I hold the AWS Solutions Architect - Associate and Cloud Practitioner certifications and am currently pursuing the ISTQB Certified Tester Foundation Level (CTFL). Beyond AWS, I'm keen to broaden my cloud skills across other platforms such as Microsoft Azure, with a particular interest in cloud and technology in the public sector. I graduated from Seneca Polytechnic's Computer Programming diploma on the President's Honour List with a 4.0 GPA.
 
-I'm committed to delivering high-quality work, meeting project deadlines, and continuously honing my craft. With a keen interest in software testing, database management, and web development, I'm ready to hit the ground running and explore the endless possibilities that the tech world has to offer.
+I'm now looking to return to a QA / software testing role where I can combine rigorous testing practices with a systems-level understanding of how software behaves and fails.
 {style="text-align: justify;"}
